@@ -638,7 +638,7 @@ section,
 # Hero Section
 --------------------------------------------------------------*/
 .hero {
-  background: url(../img/hero-bg.jpg) top center no-repeat;
+  background: url(../img/hero-bg.png) top center no-repeat;
   background-size: cover;
   width: 100%;
   min-height: 90vh;
@@ -657,7 +657,7 @@ section,
   z-index: 2;
 }
 
-.hero img {
+/* .hero img {
   position: absolute;
   inset: 0;
   display: block;
@@ -665,6 +665,12 @@ section,
   height: 100%;
   object-fit: cover;
   z-index: 1;
+} */
+
+.profImg img {
+  width: 20%;
+  border-radius: 50%;
+  margin: 20px 0;
 }
 
 .hero .container {
